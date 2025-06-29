@@ -1,0 +1,2 @@
+wwwroot\app.css
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\wwwroot\app.css

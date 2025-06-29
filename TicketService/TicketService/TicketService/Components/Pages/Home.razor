@@ -1,0 +1,21 @@
+﻿@page "/"
+@using System.Net.Http.Json
+
+<MudTable Items="@ticketDetails" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>CreateTime</MudTh>
+        <MudTh>Stage</MudTh>
+        <MudTh>Subject</MudTh>
+        <MudTh>Description</MudTh>
+        <MudTh>SupportPerson</MudTh>
+        <MudTh>ModifyTime</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="CreateTime">@context.CreateTime</MudTd>
+        <MudTd DataLabel="Stage">@context.Stage</MudTd>
+        <MudTd DataLabel="Subject">@context.Subject</MudTd>
+        <MudTd DataLabel="Description">@context.Description</MudTd>
+        <MudTd DataLabel="SupportPerson">@context.SupportPerson</MudTd>
+        <MudTd DataLabel="ModifyTime">@context.ModifyTime</MudTd>
+    </RowTemplate>
+</MudTable>
