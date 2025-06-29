@@ -1,7 +1,7 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using MudBlazor.Services;
 using TicketService.Components;
-using TicketService.Models;
-using TicketService.Services.Read;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
-builder.Services.AddTransient<TicketsContext>();
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(builder =>
+    {
+        builder.RegisterModule(new AutofacBusinessModule());
+    });
 
-builder.Services.AddTransient<IShowTickets, ShowTickets>();
 builder.Services.AddMudServices();
 var app = builder.Build();
 
@@ -28,6 +31,7 @@ else
 }
 
 app.UseHttpsRedirection();
+
 
 
 app.UseAntiforgery();

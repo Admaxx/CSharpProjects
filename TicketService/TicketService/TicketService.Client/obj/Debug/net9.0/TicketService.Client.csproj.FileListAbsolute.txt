@@ -1026,13 +1026,9 @@ C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketS
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Localization.bvn14pws96.wasm
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\MudBlazor.vvc91ohnsh.wasm
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.fscc6k7onj.pdb
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.ubdfle9u5d.wasm
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Localization.bvn14pws96.wasm.gz
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm.gz
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.fscc6k7onj.pdb.gz
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\MudBlazor.vvc91ohnsh.wasm.gz
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.ubdfle9u5d.wasm.gz
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\Microsoft.Extensions.Localization.dll
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\MudBlazor.dll
@@ -1044,6 +1040,10 @@ C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketS
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\0887doekqt-bvn14pws96.gz
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\c4clxes0gz-o4jp2hcm79.gz
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\d4ls7g7evo-vvc91ohnsh.gz
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\yxqxmg787e-ubdfle9u5d.gz
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\cypzc9elmk-fscc6k7onj.gz
-C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\t93b86tsvs-mwh87io0fk.gz
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.mkg09ddlvo.pdb
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.429f1mjays.wasm
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.mkg09ddlvo.pdb.gz
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\bin\Debug\net9.0\wwwroot\_framework\TicketService.Client.429f1mjays.wasm.gz
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\yxqxmg787e-429f1mjays.gz
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\cypzc9elmk-mkg09ddlvo.gz
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\compressed\t93b86tsvs-eerbbelzv2.gz
