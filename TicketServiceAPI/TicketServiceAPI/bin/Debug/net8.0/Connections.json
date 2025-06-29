@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;database=Tickets;uid=root;pwd=Jajeczko8"
+  }
+}

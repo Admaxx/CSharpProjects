@@ -152,6 +152,14 @@
               "target": "Package",
               "version": "[10.0.0, )"
             },
+            "Exceptionless": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Exceptionless.Web": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[9.0.6, )"

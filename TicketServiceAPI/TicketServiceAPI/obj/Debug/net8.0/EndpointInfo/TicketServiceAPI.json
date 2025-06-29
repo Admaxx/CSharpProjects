@@ -1,0 +1,203 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TicketServiceAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Ticket/GetAllTickets": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ticket/GetLastTicket": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Ticketsdetail"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Ticketsdetail"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Ticketsdetail"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ticket/GetTicketById": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ticketsdetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ticket/PostTicket": {
+      "post": {
+        "tags": [
+          "Ticket"
+        ],
+        "parameters": [
+          {
+            "name": "Subject",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "maxLength": 50,
+              "minLength": 5,
+              "type": "string"
+            }
+          },
+          {
+            "name": "Description",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "maxLength": 250,
+              "minLength": 5,
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Ticketsdetail": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "subject": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "createTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modifyTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "rankId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "supportPerson": {
+            "type": "string",
+            "nullable": true
+          },
+          "stage": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -19,5 +19,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\Jakub\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\9.0.6</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\Jakub\.nuget\packages\exceptionless\6.1.0</PkgExceptionless>
+    <PkgExceptionless_Web Condition=" '$(PkgExceptionless_Web)' == '' ">C:\Users\Jakub\.nuget\packages\exceptionless.web\6.1.0</PkgExceptionless_Web>
   </PropertyGroup>
 </Project>

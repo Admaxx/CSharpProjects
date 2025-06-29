@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|c:\\users\\jakub\\desktop\\github\\csharpprojects\\ticketservice\\ticketservice\\ticketservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|solutionrelative:ticketservice\\ticketservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|c:\\users\\jakub\\desktop\\github\\csharpprojects\\ticketservice\\ticketservice\\ticketservice\\services\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|solutionrelative:ticketservice\\ticketservice\\services\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|c:\\users\\jakub\\desktop\\github\\csharpprojects\\ticketservice\\ticketservice\\ticketservice\\components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|solutionrelative:ticketservice\\ticketservice\\components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|c:\\users\\jakub\\desktop\\github\\csharpprojects\\ticketservice\\ticketservice\\ticketservice\\services\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|solutionrelative:ticketservice\\ticketservice\\services\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|c:\\users\\jakub\\desktop\\github\\csharpprojects\\ticketservice\\ticketservice\\ticketservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1B1967-DBA2-4EA5-85EB-6CE4007E9511}|TicketService\\TicketService\\TicketService.csproj|solutionrelative:ticketservice\\ticketservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\Program.cs",
               "RelativeDocumentMoniker": "TicketService\\TicketService\\Program.cs",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\Program.cs",
               "RelativeToolTip": "TicketService\\TicketService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T15:26:18.012Z",
               "IsPinned": true,
@@ -53,13 +53,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AutofacBusinessModule.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\Services\\AutofacBusinessModule.cs",
               "RelativeDocumentMoniker": "TicketService\\TicketService\\Services\\AutofacBusinessModule.cs",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\Services\\AutofacBusinessModule.cs",
               "RelativeToolTip": "TicketService\\TicketService\\Services\\AutofacBusinessModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T20:18:52.403Z",
               "EditorCaption": ""

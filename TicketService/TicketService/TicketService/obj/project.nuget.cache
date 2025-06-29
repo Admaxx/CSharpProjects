@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lgKSmQ3d4UY=",
+  "dgSpecHash": "LsNoKvdVUAg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\TicketService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jakub\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\exceptionless\\6.1.0\\exceptionless.6.1.0.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\exceptionless.web\\6.1.0\\exceptionless.web.6.1.0.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.6\\microsoft.aspnetcore.authorization.9.0.6.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.6\\microsoft.aspnetcore.components.9.0.6.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.6\\microsoft.aspnetcore.components.analyzers.9.0.6.nupkg.sha512",
@@ -41,7 +43,25 @@
     "C:\\Users\\Jakub\\.nuget\\packages\\mudblazor\\8.8.0\\mudblazor.8.8.0.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.1\\pomelo.entityframeworkcore.mysql.8.0.1.nupkg.sha512",
-    "C:\\Users\\Jakub\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jakub\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Exceptionless.Web 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\TicketService.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jakub\\Desktop\\GitHub\\CSharpProjects\\TicketService\\TicketService\\TicketService\\TicketService.csproj",
+      "libraryId": "Exceptionless.Web",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

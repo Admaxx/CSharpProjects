@@ -1,0 +1,89 @@
+[
+  {
+    "ContainingType": "TicketServiceAPI.Controllers.TicketController",
+    "Method": "AllTickets",
+    "RelativePath": "api/Ticket/GetAllTickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[TicketServiceAPI.ScaffoldModels.Ticketsdetail, TicketServiceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketServiceAPI.Controllers.TicketController",
+    "Method": "LastTicket",
+    "RelativePath": "api/Ticket/GetLastTicket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TicketServiceAPI.ScaffoldModels.Ticketsdetail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketServiceAPI.Controllers.TicketController",
+    "Method": "TicketById",
+    "RelativePath": "api/Ticket/GetTicketById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketServiceAPI.ScaffoldModels.Ticketsdetail, TicketServiceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketServiceAPI.Controllers.TicketController",
+    "Method": "TicketDetail",
+    "RelativePath": "api/Ticket/PostTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
