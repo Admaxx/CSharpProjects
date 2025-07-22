@@ -41,3 +41,13 @@ C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketS
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService.Client\obj\Debug\net9.0\staticwebassets.build.json

@@ -1,4 +1,7 @@
-﻿using TicketService.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using MudBlazor;
+using System.Collections.Generic;
+using TicketService.Models;
 
 namespace TicketService.Components.Pages
 {
@@ -14,7 +17,20 @@ namespace TicketService.Components.Pages
 
         public IQueryable<Ticketsdetail> getTickets()
         {
-            return conn.Ticketsdetails.ToList().AsQueryable();
+
+            return conn.Ticketsdetails
+                .AsNoTracking()
+                .Select(item => new Ticketsdetail()
+                {   
+                    CreateTime = item.CreateTime,
+                    Stage = item.Stage,
+                    Subject = item.Subject,
+                    Description = item.Description,
+                    SupportPerson = item.SupportPerson,
+                    ModifyTime = item.ModifyTime 
+                })
+                .ToList()
+                .AsQueryable();
         }
         protected override void OnInitialized()
         {

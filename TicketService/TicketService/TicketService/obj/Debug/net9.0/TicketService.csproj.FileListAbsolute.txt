@@ -87,3 +87,5 @@ C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketS
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\bin\Debug\net9.0\Autofac.dll
 C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\bin\Debug\net9.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\bin\Debug\net9.0\Exceptionless.dll
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\TicketService\TicketService\TicketService\bin\Debug\net9.0\Exceptionless.Web.dll

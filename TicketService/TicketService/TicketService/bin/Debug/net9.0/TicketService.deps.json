@@ -9,6 +9,8 @@
       "TicketService/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "10.0.0",
+          "Exceptionless": "6.1.0",
+          "Exceptionless.Web": "6.1.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "9.0.6",
           "MudBlazor": "8.8.0",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.1",
@@ -38,6 +40,31 @@
           "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Exceptionless/6.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Reflection.Metadata": "6.0.1",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Exceptionless.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Exceptionless.Web/6.1.0": {
+        "dependencies": {
+          "Exceptionless": "6.1.0"
+        },
+        "runtime": {
+          "lib/net462/Exceptionless.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.0.0"
           }
         }
       },
@@ -408,7 +435,20 @@
           }
         }
       },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
       "System.Diagnostics.DiagnosticSource/8.0.1": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Reflection.Metadata/6.0.1": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
       "TicketService.Client/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.6",
@@ -442,6 +482,20 @@
       "sha512": "sha512-ZjR/onUlP7BzQ7VBBigQepWLAyAzi3VRGX3pP6sBqkPRiT61fsTZqbTpRUKxo30TMgbs1o3y6bpLbETix4SJog==",
       "path": "autofac.extensions.dependencyinjection/10.0.0",
       "hashPath": "autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512"
+    },
+    "Exceptionless/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-94hMBDa1SUW2PGp3tO8n8Y5IOBulF146cCeWfVYA7LyIWG70UpNNXYi0iFvnzsus+ZC7xOdRi29Sgs20gOMY0g==",
+      "path": "exceptionless/6.1.0",
+      "hashPath": "exceptionless.6.1.0.nupkg.sha512"
+    },
+    "Exceptionless.Web/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6GN27OixM1Nf8Dj0dREBzOzHc7zFyeYjLc/5yLVxuvqB4GwGoCCpxGXUXc1+FVD0kOSjS+gn3hfOXsHxGQr4Tg==",
+      "path": "exceptionless.web/6.1.0",
+      "hashPath": "exceptionless.web.6.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/9.0.6": {
       "type": "package",
@@ -688,12 +742,47 @@
       "path": "pomelo.entityframeworkcore.mysql/8.0.1",
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.1.nupkg.sha512"
     },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
     "System.Diagnostics.DiagnosticSource/8.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
       "path": "system.diagnostics.diagnosticsource/8.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-III/lNMSn0ZRBuM9m5Cgbiho5j81u0FAEagFX5ta2DKbljZ3T0IpD8j+BIiHQPeKqJppWS9bGEp6JnKnWKze0g==",
+      "path": "system.reflection.metadata/6.0.1",
+      "hashPath": "system.reflection.metadata.6.0.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
     "TicketService.Client/1.0.0": {
       "type": "project",

@@ -13,13 +13,15 @@ public partial class Ticketsdetail
 
     public string Description { get; set; }
 
-    public DateTime CreateTime { get; set; }
+    public DateTime? CreateTime { get; set; }
 
     public DateTime? ModifyTime { get; set; }
 
-    public long RankId { get; set; }
+    public long? RankId { get; set; }
 
     public string SupportPerson { get; set; }
 
-    public long Stage { get; set; }
+    public long? Stage { get; set; }
+
+    public long ReportPerson { get; set; }
 }
