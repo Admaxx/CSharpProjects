@@ -1,0 +1,13 @@
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\bin\Debug\net8.0\DBConnection.deps.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\bin\Debug\net8.0\DBConnection.dll
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\bin\Debug\net8.0\DBConnection.pdb
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.csproj.AssemblyReference.cache
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.AssemblyInfoInputs.cache
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.AssemblyInfo.cs
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.sourcelink.json
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.dll
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\refint\DBConnection.dll
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\DBConnection.pdb
+C:\Users\Jakub\Desktop\GitHub\CSharpProjects\ResumeAnswerer\DBConnection\obj\Debug\net8.0\ref\DBConnection.dll
